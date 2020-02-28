@@ -10,13 +10,6 @@
   background-color: blue;
 }
 
-.container{
-  border: solid 1px #000;
-  /* height: 500px; */
-  /* background-color: blue; */
-  /* max-width: 1170px; */
-}
-
 header{
   background: -webkit-linear-gradient(60deg, #225393, #002351);
   padding-top: 50px;
@@ -46,7 +39,7 @@ section img{
 .third{
   text-align: center;
   padding-top: 100px;
-  margin-bottom: 70px;
+  padding-bottom: 100px;
   background-color: #f6f7f8;
 }
 
@@ -110,14 +103,22 @@ h1{
   height: 300px;*/
 }
 
-footer [class*="col-"]{
+footer {
   background-color: #113462;
+  height: 180px;
 }
 
 footer h6{
+  padding-top: 20px;
+  padding-left: 30px;
   color: #7393c1;
+  margin-bottom: 15px;
+  font-size: 14px;
 }
 
 footer ul li{
   color: white;
+  padding-left: 30px;
+  line-height: 1.5;
+  font-size: 14px;
 }
