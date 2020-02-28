@@ -46,7 +46,8 @@ section img{
 .third{
   text-align: center;
   padding-top: 100px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+  background-color: #f6f7f8;
 }
 
 .first p{
@@ -84,7 +85,26 @@ h1{
   margin-bottom: 25px;
 }
 
+.second img{
+  width:70%;
+  height: auto;
+}
+
+.third img{
+  width:40%;
+  height: auto;
+  padding-left: 40px;
+  margin-right: 40px;
+}
+
+.third h2{
+  color: #9ba6b7;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 [class*="col-"]{
+  padding-top: 30px;
 /*   background: blue;
   border: solid 1px #000;
   height: 300px;*/
