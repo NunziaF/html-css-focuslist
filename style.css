@@ -6,7 +6,6 @@
   font-family: "Clear Sans", sans-serif;
 }
 
-
 header{
   background: -webkit-linear-gradient(60deg, #225393, #002351);
   padding-top: 50px;
@@ -14,9 +13,8 @@ header{
 
 .logo{
   margin-bottom:25px;
-  padding-top: 25px;
+  padding-top: 35px;
 }
-
 
 section img{
   width: 100%;
@@ -26,6 +24,7 @@ section img{
   text-align: center;
   padding-top: 100px;
   background-color: #f6f7f8;
+  padding-bottom: 50px;
 
 }
 .second{
@@ -62,6 +61,7 @@ header h2{
   color: #7393c1;
   font-weight: 300;
   font-size: 24px;
+  padding-right: 50px;
 }
 
 .first h2{
@@ -108,14 +108,11 @@ header h2{
 
 [class*="col-"]{
   padding-top: 30px;
-/*   background: blue;
-  border: solid 1px #000;
-  height: 300px;*/
 }
 
 footer {
   background-color: #113462;
-  height: 180px;
+  padding-bottom: 50px;
 }
 
 footer h6{
