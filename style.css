@@ -1,3 +1,4 @@
+/* regole di contenitore */
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +7,21 @@
   font-family: "Clear Sans", sans-serif;
 }
 
+[class*="col-"]{
+  padding-top: 30px;
+}
+
+section img{
+  width: 100%;
+}
+
+h1{
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+/* header */
 header{
   background: -webkit-linear-gradient(60deg, #225393, #002351);
   padding-top: 50px;
@@ -14,42 +30,6 @@ header{
 .logo{
   margin-bottom:25px;
   padding-top: 35px;
-}
-
-section img{
-  width: 100%;
-}
-
-.first{
-  text-align: center;
-  padding-top: 100px;
-  background-color: #f6f7f8;
-  padding-bottom: 50px;
-
-}
-.second{
-  text-align: center;
-  padding-top: 100px;
-  background: #2a4b77;
-  padding-bottom: 70px;
-}
-
-.third{
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #f6f7f8;
-}
-
-.first p{
-  color: #9ba6b7;
-  margin-bottom: 30px;
-}
-
-h1{
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 36px;
 }
 
 header h1{
@@ -64,11 +44,32 @@ header h2{
   padding-right: 50px;
 }
 
+/* prima sezione */
+.first{
+  text-align: center;
+  padding-top: 100px;
+  background-color: #f6f7f8;
+  padding-bottom: 50px;
+}
+
+.first p{
+  color: #9ba6b7;
+  margin-bottom: 30px;
+}
+
 .first h2{
   margin-top: 120px;
   margin-bottom: 25px;
   font-size: 18px;
   color: #274daf;
+}
+
+/* seconda sezione */
+.second{
+  text-align: center;
+  padding-top: 100px;
+  background: #2a4b77;
+  padding-bottom: 70px;
 }
 
 .second h1{
@@ -93,6 +94,14 @@ header h2{
   height: auto;
 }
 
+/* terza sezione */
+.third{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f7f8;
+}
+
 .third img{
   width:40%;
   height: auto;
@@ -106,10 +115,7 @@ header h2{
   font-size: 18px;
 }
 
-[class*="col-"]{
-  padding-top: 30px;
-}
-
+/* footer */
 footer {
   background-color: #113462;
   padding-bottom: 50px;
